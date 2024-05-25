@@ -24,11 +24,11 @@ export default tseslint.config(
       'no-console': 'warn',
     },
   },
-  {
-    extends: [
-      'eslint:recommended',
-      'plugin:@typescript-eslint/recommended',
-      'prettier',
-    ],
-  },
+  // {
+  //   extends: [
+  //     'eslint:recommended',
+  //     'plugin:@typescript-eslint/recommended',
+  //     'prettier',
+  //   ],
+  // },
 );
