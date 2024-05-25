@@ -1,9 +1,9 @@
-# It's a E-commerce Management System Application
+# E-commerce Management System Application
 
 It's a Node.js application built with Node.js, Express.js and TypeScript.
 
 First of all you need to clone the repository. Here is the repository link:
-    [e.g., (https://github.com/Mehedi556/ecommerce-management-system-backend)]
+https://github.com/Mehedi556/ecommerce-management-system-backend
 
 In the command prompt, full command is ( git clone https://github.com/Mehedi556/ecommerce-management-system-backend )
 
@@ -14,14 +14,21 @@ Secondly install all the dependencies by write in the terminal
     npm install 
 
 
-To run the application in development mode, use the following command:  
+
+
+To run the application in development mode, use the following command: 
+
     npm run start:dev
+
+
 
 
 This will start the server using ts-node-dev, which will automatically restart the server when code changes are detected.
 
 To run the application in production mode, you need to build the project first and then start the server: 
+
     npm run build 
+
 for build.
 
     npm run start:prod 
@@ -32,6 +39,7 @@ for start the server.
 Important Environment Variables are:
 
     DB_URL=mongodb+srv://ecommerce-management-system:AP0AMCQhENEwUYdT@cluster0.emwzks8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    
     PORT=5000
 
 
