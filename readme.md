@@ -38,7 +38,7 @@ for start the server.
 
 Important Environment Variables are:
 
-    DB_URL=mongodb+srv://ecommerce-management-system:AP0AMCQhENEwUYdT@cluster0.emwzks8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    DB_URL=mongodb+srv://<DBId>:<DBPassword>@cluster01.emwzks8564.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     
     PORT=5000
 
